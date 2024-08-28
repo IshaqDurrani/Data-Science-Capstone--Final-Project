@@ -1,0 +1,57 @@
+---
+title: "Data Science Capstone- Final Project"
+author: "Ishaq Ali Shah"
+date: "2024-08-28"
+output: 
+  ioslides_presentation: default
+  html_notebook: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Synopsis
+
+This project was created for the Developing Data Products course as part of the
+Data Science Specialization offered through Coursera from Johns Hopkins
+University.
+
+The source code files for this project can be found on GitHub:
+
+<a target="_blank" href="https://github.com/IshaqDurrani/Data-Science-Capstone--Final-Project">GitHub</a>
+
+## Course Project
+
+The course project is a two part peer-graded assignment:
+
+- Create a Shiny application and deploy it on RStudio's servers
+
+- Use Slidify or RStudio Presenter to prepare a reproducible pitch presentation
+about your application.
+
+The name of the Shiny application developed for this project is the
+**Next Word Prediction App* and is hosted on RStudio's
+shinyapps.io hosted service:
+
+<a target="_blank" href="https://durrani1435.shinyapps.io/DataScienceCapstone/">Shiny App</a>
+
+## Next Word Prediction App
+
+- Create an algorithm for predicting the next word given one or more words as input using NLP
+
+- A large corpus of blog, news and twitter data was loaded and analyzed
+
+- N-grams were extracted from the corpus and then used for building the predictive model
+
+- Various methods of improving the prediction accuracy and speed were explored
+
+## Algorithm
+
+- N-gram model with stupid back-off strategy was used
+
+- Dataset was cleaned, lower-cased, removing links, twitter handles, punctuations, numbers and extra whitespaces, etc
+
+- Matrices from 6-gram to uni-gram were extracted using RWeka
+
+- Reduced size of model by dropping least frequent N-grams
