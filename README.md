@@ -12,8 +12,8 @@ This repository contains the ui.R and server.R source code files for the develop
 The Shiny application is hosted on shinyapps.io and the Presentation (slides) are available on RPubs.
 
 Links
-Final project submission (Shiny App): 
+Final project submission (Shiny App): https://durrani1435.shinyapps.io/DataScienceCapstone/
 
-Final project submission (Presentation): 
+Final project submission (Presentation): https://rpubs.com/Ishaq/DataScienceCapstone
 
 Source code files available on GitHub: https://github.com/IshaqDurrani/Data-Science-Capstone--Final-Project
