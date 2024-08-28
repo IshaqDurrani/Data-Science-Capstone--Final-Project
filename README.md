@@ -16,4 +16,4 @@ Final project submission (Shiny App):
 
 Final project submission (Presentation): 
 
-Source code files available on GitHub: 
+Source code files available on GitHub: https://github.com/IshaqDurrani/Data-Science-Capstone--Final-Project
